@@ -1,0 +1,468 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.list {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.link {
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-blue {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.nav-list-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #2196f3;
+}
+
+.contacts-list-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: #2196f3;
+}
+
+.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.tel {
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.mail {
+  margin-left: auto;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+
+.footer {
+  background: #2f303a;
+}
+
+.logo-on-black {
+  color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.adress {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.contacts-footer-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress {
+  margin-bottom: 9px;
+  display: block;
+}
+
+.contacts-footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.contacts-footer-item:last-child {
+  padding-bottom: 60px;
+}
+
+/*  END FOOTER */
+
+/* Portfolio page */
+
+/* Portfolio section navigation */
+
+.nav-portfolio-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  padding: 6px 22px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.nav-portfolio-btn:hover,
+.nav-portfolio-btn:focus {
+  color: #ffffff;
+  background: #2196f3;
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-nav-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* End portfolio section navigation */
+
+/* img-links-portfolio */
+
+.porfolio-img-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.portfolio-img-list-item {
+  margin: 15px;
+}
+
+.project-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+
+  margin: 20px 24px 4px;
+}
+
+.project-mini-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+
+  margin: 0 24px 20px;
+}
+
+.section-portfolio {
+  margin-bottom: 94px;
+}
+
+/* End img-links-portfolio */
+
+/* End Portfolio page */
+
+/* Main page */
+
+/* HERO */
+
+.section-hero {
+  background: #2f303a;
+  height: 600px;
+}
+
+.hero-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  width: 696px;
+}
+
+.section-hero .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+}
+
+.hero-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  padding: 10px 32px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+  border: transparent;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* END HERO */
+
+/* Properties */
+
+.properties-list {
+  display: flex;
+  margin: -15px;
+}
+
+.properties-list-item {
+  margin: 15px;
+  width: 270px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.prop-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.prop-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* End Properties */
+
+/* What we are doing */
+
+.what-we-are-doing-list {
+  display: flex;
+  margin: -15px;
+}
+
+.tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.what-we-are-doing-tittle {
+  padding-bottom: 50px;
+}
+
+.what-we-are-doing-item {
+  margin: 15px;
+}
+
+/* End What we are doing */
+
+/* Our team */
+
+.our-team-tittle {
+  padding-top: 188px;
+  padding-bottom: 50px;
+}
+
+.our-team-list {
+  display: flex;
+  margin: -15px -15px 79px -15px;
+}
+
+.our-team-list-item {
+  margin: 15px;
+
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.people-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.people-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+
+  padding-bottom: 30px;
+}
+
+/* End Our team */
+
+/* End Main page */
