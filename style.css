@@ -84,14 +84,15 @@ ul {
   color: #2196f3;
 }
 
-.logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 .header .container {
   display: flex;
   align-items: center;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -126,11 +127,12 @@ ul {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-on-black {
   color: #ffffff;
-  padding-top: 60px;
   padding-bottom: 20px;
   display: block;
 }
@@ -172,15 +174,16 @@ ul {
   margin-bottom: 9px;
 }
 
-.contacts-footer-item:last-child {
-  padding-bottom: 60px;
-}
-
 /*  END FOOTER */
 
 /* Portfolio page */
 
 /* Portfolio section navigation */
+
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .nav-portfolio-btn {
   font-family: Roboto;
@@ -199,7 +202,6 @@ ul {
   cursor: pointer;
 
   padding: 6px 22px;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -227,6 +229,10 @@ ul {
 
 /* img-links-portfolio */
 
+.project-box {
+  padding: 20px 24px;
+}
+
 .porfolio-img-list {
   display: flex;
   flex-wrap: wrap;
@@ -235,6 +241,9 @@ ul {
 
 .portfolio-img-list-item {
   margin: 15px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
 }
 
 .project-tittle {
@@ -249,7 +258,7 @@ ul {
 
   color: #212121;
 
-  margin: 20px 24px 4px;
+  margin-bottom: 4px;
 }
 
 .project-mini-desc {
@@ -263,12 +272,6 @@ ul {
   letter-spacing: 0.03em;
 
   color: #757575;
-
-  margin: 0 24px 20px;
-}
-
-.section-portfolio {
-  margin-bottom: 94px;
 }
 
 /* End img-links-portfolio */
@@ -340,6 +343,11 @@ ul {
 
 /* Properties */
 
+.our-properties {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .properties-list {
   display: flex;
   margin: -15px;
@@ -348,8 +356,6 @@ ul {
 .properties-list-item {
   margin: 15px;
   width: 270px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .prop-tittle {
   font-family: Roboto;
@@ -380,6 +386,10 @@ ul {
 
 /* What we are doing */
 
+.what-we-are-doing {
+  padding-bottom: 94px;
+}
+
 .what-we-are-doing-list {
   display: flex;
   margin: -15px;
@@ -409,14 +419,18 @@ ul {
 
 /* Our team */
 
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .our-team-tittle {
-  padding-top: 188px;
   padding-bottom: 50px;
 }
 
 .our-team-list {
   display: flex;
-  margin: -15px -15px 79px -15px;
+  margin: -15px;
 }
 
 .our-team-list-item {
