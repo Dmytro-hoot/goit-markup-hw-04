@@ -113,12 +113,32 @@ ul {
 }
 
 .tel {
-  margin-left: 50px;
   margin-right: 0px;
 }
 
 .mail {
+  margin-right: 30px;
+}
+
+.contacts-svg-mail-icon {
+  margin-right: 10px;
   margin-left: auto;
+}
+
+.contacts-svg-mail {
+  width: 16px;
+  height: 10px;
+  margin-right: 10px;
+  margin-left: auto;
+  fill: #757575;
+}
+
+.contacts-svg-phone {
+  margin-right: 10px;
+
+  fill: #757575;
+  width: 10px;
+  height: 16px;
 }
 
 /* END HEADER */
@@ -283,8 +303,14 @@ ul {
 /* HERO */
 
 .section-hero {
-  background: #2f303a;
+  margin: 0 auto;
+  max-width: 1600px;
+  background: #c4c4c4;
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url(./images/hero.jpg);
   height: 600px;
+  background-repeat: no-repeat;
+  background-position-x: center;
 }
 
 .hero-tittle {
