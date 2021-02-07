@@ -22,6 +22,12 @@ ul {
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
+a:hover,
+a:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
+
 .logo {
   font-family: Raleway;
   font-style: normal;
@@ -79,9 +85,10 @@ ul {
   color: #757575;
 }
 
-.contacts-list-link:hover,
-.contacts-list-link:focus {
+a:hover,
+a:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .header .container {
@@ -112,33 +119,33 @@ ul {
   margin-right: 50px;
 }
 
-.tel {
-  margin-right: 0px;
-}
-
-.mail {
-  margin-right: 30px;
-}
-
-.contacts-svg-mail-icon {
-  margin-right: 10px;
-  margin-left: auto;
+.contact-list {
+  display: flex;
 }
 
 .contacts-svg-mail {
   width: 16px;
-  height: 10px;
+  height: 12px;
   margin-right: 10px;
   margin-left: auto;
-  fill: #757575;
+  fill: currentColor;
 }
 
 .contacts-svg-phone {
   margin-right: 10px;
 
-  fill: #757575;
+  fill: currentColor;
   width: 10px;
   height: 16px;
+}
+
+.tel {
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.mail {
+  margin-left: auto;
 }
 
 /* END HEADER */
@@ -192,6 +199,10 @@ ul {
 
 .contacts-footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.contacts-list {
+  display: flex;
 }
 
 /*  END FOOTER */
@@ -374,6 +385,12 @@ ul {
   padding-bottom: 94px;
 }
 
+.properties-svg {
+  width: 65px;
+  height: 70px;
+  margin: 25px 102px;
+}
+
 .properties-list {
   display: flex;
   margin: -15px;
@@ -470,6 +487,42 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
+}
+
 .people-name {
   font-family: Roboto;
   font-style: normal;
@@ -499,8 +552,6 @@ ul {
   letter-spacing: 0.03em;
 
   color: #757575;
-
-  padding-bottom: 30px;
 }
 
 /* End Our team */
