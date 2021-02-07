@@ -22,8 +22,8 @@ ul {
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
 
-a:hover,
-a:focus {
+a:not(.logo):hover,
+a:not(.logo):focus {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -83,12 +83,6 @@ a:focus {
   letter-spacing: 0.02em;
 
   color: #757575;
-}
-
-a:hover,
-a:focus {
-  color: #2196f3;
-  fill: #2196f3;
 }
 
 .header .container {
@@ -205,6 +199,48 @@ a:focus {
   display: flex;
 }
 
+.footer .container {
+  display: flex;
+}
+
+.footer-left {
+  padding-right: 70px;
+}
+
+.social-list-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.footer-right-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.social-list-icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.social-list-link-footer:hover .social-list-icon-footer,
+.social-list-link-footer:focus .social-list-icon-footer {
+  fill: currentColor;
+}
+
 /*  END FOOTER */
 
 /* Portfolio page */
@@ -303,6 +339,12 @@ a:focus {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.portfolio-img-list-item:hover,
+.pportfolio-img-list-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* End img-links-portfolio */
