@@ -9,6 +9,16 @@ body {
   padding: 0 15px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .list {
   list-style-type: none; /* Убираем маркеры */
 }
@@ -381,6 +391,8 @@ a:not(.logo):focus {
   color: #ffffff;
 
   width: 696px;
+
+  margin-bottom: 30px;
 }
 
 .section-hero .container {
@@ -452,6 +464,8 @@ a:not(.logo):focus {
   text-transform: uppercase;
 
   color: #212121;
+
+  margin-top: 30px;
 }
 
 .prop-desc {
@@ -493,7 +507,7 @@ a:not(.logo):focus {
 }
 
 .what-we-are-doing-tittle {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .what-we-are-doing-item {
@@ -510,7 +524,7 @@ a:not(.logo):focus {
 }
 
 .our-team-tittle {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .our-team-list {
